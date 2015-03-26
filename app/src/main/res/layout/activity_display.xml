@@ -8,23 +8,32 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:gravity="center">
+    android:gravity="center_horizontal">
 
 
     <TextView
         android:text="@string/compass"
         android:textColor="#FFF"
         android:textStyle="bold"
-        android:textSize="60sp"
+        android:textSize="50sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="165dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pointer" />
+
+
     <Button
-        android:id="@+id/main_activity_button"
-        android:text="@string/button_main_activity"
+        android:id="@+id/returnbutton"
+        android:text="@string/returnbutton"
         android:textColor="#000"
         android:background="#40B8AF"
         android:layout_width="match_parent"
@@ -34,4 +43,8 @@
         android:layout_alignParentEnd="true"
         android:onClick="secondActivity"
         />
+
+
+
 </RelativeLayout>
+

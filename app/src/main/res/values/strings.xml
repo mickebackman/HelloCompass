@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">HelloCompass</string>
 
-    <string name="hello_world">Hello world!</string>
+
+    <string name="app_name">HelloCompass</string>
+    <string name="compass">Compass</string>
+    <string name="button_main_activity">Start compass</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="returnbutton">Return</string>
+
 </resources>
