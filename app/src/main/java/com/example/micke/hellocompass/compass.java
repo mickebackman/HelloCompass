@@ -38,7 +38,7 @@ public class compass extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void secondAcvitity(View view){
+    public void secondActivity(View view){
         Intent intent = new Intent(this, DisplayActivity.class);
         startActivity(intent);
     }

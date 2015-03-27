@@ -1,5 +1,6 @@
 package com.example.micke.hellocompass;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,6 +11,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
@@ -109,5 +111,9 @@ public class DisplayActivity extends ActionBarActivity implements SensorEventLis
 
 
 
+    }
+    public void secondActivity(View view){
+        Intent intent = new Intent(this, compass.class);
+        startActivity(intent);
     }
 }
